@@ -12,3 +12,46 @@ img,
 video {
   display: block;
 }
+body {
+  padding: 40px;
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 42px;
+  font-weight: 700;
+}
+.section {
+  background-color: #2a9d8f;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: flex;
+}
+.box {
+  background-color: #264653;
+  padding: 40px;
+}
+
+.section-1 {
+  gap: 20px;
+}
+
+.section-2 {
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.section-3 {
+  gap: 20px;
+  flex-direction: column-reverse;
+}
+
+.section-4 {
+  justify-content: space-between;
+}
+
+.section-5 {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.section-5 .box {
+}
